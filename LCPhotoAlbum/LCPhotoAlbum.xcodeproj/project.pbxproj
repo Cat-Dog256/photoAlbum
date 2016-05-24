@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0071366C1CE375C4001F8E89 /* LCPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0071366B1CE375C4001F8E89 /* LCPhotosViewController.m */; };
+		007136701CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0071366E1CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.m */; };
+		007136771CE4223D001F8E89 /* LCPhotoKitAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 007136761CE4223D001F8E89 /* LCPhotoKitAsset.m */; };
+		0071367A1CE4B117001F8E89 /* LCBigImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 007136791CE4B117001F8E89 /* LCBigImageScrollView.m */; };
 		00B926BF1CA02F0F005F5EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B926BE1CA02F0F005F5EC8 /* main.m */; };
 		00B926C21CA02F0F005F5EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B926C11CA02F0F005F5EC8 /* AppDelegate.m */; };
 		00B926C51CA02F0F005F5EC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B926C41CA02F0F005F5EC8 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0071366A1CE375C4001F8E89 /* LCPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPhotosViewController.h; sourceTree = "<group>"; };
+		0071366B1CE375C4001F8E89 /* LCPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPhotosViewController.m; sourceTree = "<group>"; };
+		0071366D1CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		0071366E1CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		007136751CE4223D001F8E89 /* LCPhotoKitAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPhotoKitAsset.h; sourceTree = "<group>"; };
+		007136761CE4223D001F8E89 /* LCPhotoKitAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPhotoKitAsset.m; sourceTree = "<group>"; };
+		007136781CE4B117001F8E89 /* LCBigImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBigImageScrollView.h; sourceTree = "<group>"; };
+		007136791CE4B117001F8E89 /* LCBigImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBigImageScrollView.m; sourceTree = "<group>"; };
 		00B926BA1CA02F0F005F5EC8 /* LCPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B926BE1CA02F0F005F5EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00B926C01CA02F0F005F5EC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,11 +113,19 @@
 		00B926BC1CA02F0F005F5EC8 /* LCPhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				007136781CE4B117001F8E89 /* LCBigImageScrollView.h */,
+				007136791CE4B117001F8E89 /* LCBigImageScrollView.m */,
 				00B926C01CA02F0F005F5EC8 /* AppDelegate.h */,
 				00B926C11CA02F0F005F5EC8 /* AppDelegate.m */,
 				00B926C31CA02F0F005F5EC8 /* ViewController.h */,
 				00B926C41CA02F0F005F5EC8 /* ViewController.m */,
 				00B926C61CA02F0F005F5EC8 /* Main.storyboard */,
+				0071366A1CE375C4001F8E89 /* LCPhotosViewController.h */,
+				0071366B1CE375C4001F8E89 /* LCPhotosViewController.m */,
+				007136751CE4223D001F8E89 /* LCPhotoKitAsset.h */,
+				007136761CE4223D001F8E89 /* LCPhotoKitAsset.m */,
+				0071366D1CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.h */,
+				0071366E1CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.m */,
 				00B926C91CA02F0F005F5EC8 /* Assets.xcassets */,
 				00B926CB1CA02F0F005F5EC8 /* LaunchScreen.storyboard */,
 				00B926CE1CA02F0F005F5EC8 /* Info.plist */,
@@ -274,8 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B926C51CA02F0F005F5EC8 /* ViewController.m in Sources */,
+				0071367A1CE4B117001F8E89 /* LCBigImageScrollView.m in Sources */,
+				007136771CE4223D001F8E89 /* LCPhotoKitAsset.m in Sources */,
 				00B926C21CA02F0F005F5EC8 /* AppDelegate.m in Sources */,
+				0071366C1CE375C4001F8E89 /* LCPhotosViewController.m in Sources */,
 				00B926BF1CA02F0F005F5EC8 /* main.m in Sources */,
+				007136701CE3EBEA001F8E89 /* LCPhotoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +525,7 @@
 				00B926E91CA02F0F005F5EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00B926EA1CA02F0F005F5EC8 /* Build configuration list for PBXNativeTarget "LCPhotoAlbumTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +534,7 @@
 				00B926EC1CA02F0F005F5EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00B926ED1CA02F0F005F5EC8 /* Build configuration list for PBXNativeTarget "LCPhotoAlbumUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +543,7 @@
 				00B926EF1CA02F0F005F5EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
